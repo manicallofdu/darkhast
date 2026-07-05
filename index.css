@@ -1,0 +1,85 @@
+body {
+background:linear-gradient(to bottom , blue , black)!important;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+
+#kol {
+/* background-color: rgba(0, 0, 0, 0.249); */
+/*-----------------------------------------*/
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media (max-width: 575.98px) {
+.container {
+width: 85% !important;
+max-width: 85% !important;
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+.soal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(0, 0, 255, 0.304); */
+    /*-----------------------------------------*/
+}
+
+#soal {
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #ffffff;
+}
+
+.pasokh {
+    position: relative;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgba(255, 0, 0, 0.32); */
+    /*-----------------------------------------*/
+}
+
+#yes {
+    margin-left: -100px !important;
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    font-family: samim;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: #00ff00;
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+#yes:hover{
+    box-shadow: 0px 0px 15px #00c300;
+    color: #000000;
+}
+
+#no {
+    margin-right: -100px !important;
+    position: absolute;
+    margin: 20px;
+    width: 100px;
+    height: 50px;
+    font-family: samim;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    background-color: rgba(255, 0, 0, 0.849);
+    color: #ffffff;
+    transition: all 0.4s ease;
+}
+#no:hover{
+    box-shadow: 0px 0px 15px rgb(174, 0, 0);
+    color: #000000;
+}
